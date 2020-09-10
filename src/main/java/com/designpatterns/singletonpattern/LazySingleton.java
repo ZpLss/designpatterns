@@ -28,4 +28,8 @@ public class LazySingleton {
         }
         return singleton;
     }
+
+    public String sentNotice(String msg){
+        return msg;
+    }
 }
